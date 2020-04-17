@@ -1,0 +1,15 @@
+<Project>
+
+  <PropertyGroup>
+
+    <RepositoryType>git</RepositoryType> 
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl> 
+    <PackageIconUrl></PackageIconUrl>
+    <PackageTags></PackageTags> 
+    <PackageReleaseNotes></PackageReleaseNotes>
+
+  </PropertyGroup> 
+
+</Project>

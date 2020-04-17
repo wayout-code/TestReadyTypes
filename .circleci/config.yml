@@ -1,0 +1,19 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: mcr.microsoft.com/dotnet/core/sdk:3.1
+    steps:
+      - checkout
+      - run:
+          name: restore packages
+          command:
+            dotnet restore "src/test ready types.sln"
+      - run:
+          name: build app
+          command:
+            dotnet build "src/test ready types.sln"
+      - run:
+          name: test app
+          command:
+            dotnet test "src/test ready types.sln"

@@ -1,0 +1,11 @@
+<Project>
+
+  <PropertyGroup>
+
+    <Product>Wayout.TestReadyTypes</Product> 
+    <ProductName>Test Ready Types</ProductName>
+    <Description></Description>
+
+  </PropertyGroup> 
+
+</Project>
